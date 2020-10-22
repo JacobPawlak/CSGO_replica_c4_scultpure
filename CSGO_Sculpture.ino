@@ -83,7 +83,7 @@ void setup() {
   //for the serial LCD
   Wire.begin();
   //setting up the screen
-  lcdScreen.begin();
+  lcdScreen.init();
   lcdScreen.backlight();
   lcdScreen.clear();
   lcdScreen.setCursor(2,0);
